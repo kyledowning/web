@@ -190,21 +190,35 @@ hr {
     border-radius: 5%;
 }
 
+.phone-line {
+    display: none;
+}
 
 @media screen and (max-width: 480px) 
 {
 
+    .line {
+        margin: 0;
+    }
+
     main {
-     
+        display: block;
+        margin-top: 0;
+        height: 170vh;
+    }
+
+    .profile {
+        margin: 0;
     }
 
     .body p {
         font-size: 15px;
         padding-left: 10px;
+        padding-right: 15px;
     }
 
     .body h2 {
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .profile-img {
@@ -228,6 +242,19 @@ hr {
 
     .project-entry {
         padding: 2px;
+    }
+
+    .project-entry p {
+        padding-right: 10px;
+    }
+
+    .project-entry h1 {
+        font-size: 20px;
+    }
+
+    .phone-line {
+        display: block;
+        width: 100%;
     }
 
 }
