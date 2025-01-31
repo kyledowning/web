@@ -194,7 +194,7 @@ hr {
     display: none;
 }
 
-@media screen and (max-width: 480px) 
+@media (max-width: 600px)
 {
 
     .line {
